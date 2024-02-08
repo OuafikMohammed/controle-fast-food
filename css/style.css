@@ -34,7 +34,7 @@ the result is 1 rem = 10 px
 */
 html {
     font-size: 62.5%;
-}
+}  
 
 * {
     padding: 0;
@@ -264,7 +264,7 @@ hr {
     transition: all 0.3s;
 }
 .main-nav-link:hover , .main-nav-link:active {
-    color: #796648;
+    text-decoration: underline;
 }
 
 
@@ -282,11 +282,13 @@ label {
 input[type="text"], input[type="email"], input[type="date"] {
             width: 100%;
             padding: 10px;
-            border: 1px solid #F1CB90;
-            border-radius: 4px;
             box-sizing: border-box;
             margin-bottom: 10px;
-            border-style: none;
+            background-color:  black ;
+            border: none;
+            border-bottom:2px solid #F1CB90 ;
+            outline: none;
+            color: #fcf5e9;
         }
 input[type="submit"] {
             width: 100%;
