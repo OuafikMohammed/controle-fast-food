@@ -1,4 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
 @media screen and (max-width: 768px) {
     body {
       font-size: 55%;
@@ -59,9 +70,5 @@
 }
 .section-hero {
     background-color: #fefaf4;
-    padding: 4.8rem 0 0 0;
+    padding: 0 0 0 0;
 }
-
-/* ###################################
-###### OUR MISSION SECTION ###########
-####################################*/
