@@ -16,7 +16,3 @@ body {
     background-color: #000;
   }
 
-.date:hover{
-    
-    animation: date 0.4s ease-in-out;
-}

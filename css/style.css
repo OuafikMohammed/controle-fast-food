@@ -266,6 +266,34 @@ hr {
 .main-nav-link:hover , .main-nav-link:active {
     text-decoration: underline;
 }
+@keyframes navigation-animated {
+  from {transform: translateX(1000px);}
+  to {transform: translateX(0px);}
+}
+.item1 {
+  animation-name: navigation-animated;
+  animation-duration: 5s;
+}
+.item2 {
+  animation-name: navigation-animated;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+}
+.item3 {
+  animation-name: navigation-animated;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+}
+.item4 {
+  animation-name: navigation-animated;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+}
+.item5 {
+  animation-name: navigation-animated;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+}
 
 
 
